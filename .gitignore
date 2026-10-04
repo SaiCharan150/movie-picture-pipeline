@@ -1,0 +1,18 @@
+node_modules/
+.pytest_cache/
+.venv/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.tfstate.lock.info
+
+# AWS credentials / local secrets
+credentials
+.aws/
+aws_credentials_temp
+
+# Environment files
+.env
+.env.*
